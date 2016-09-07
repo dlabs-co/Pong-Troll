@@ -5,7 +5,7 @@ Instrucciones para Compilación:<br>
 sdasz80 -o crt0_cpc.s<br>
 sdasz80 -o putchar.s<br>
 sdcc -mz80 --fno-omit-frame-pointer --code-loc 0x5038 --data-loc 0 --opt-code-size --no-std-crt0 crt0_cpc.rel putchar.rel PongTroll.c<br>
-Para la compilación, es necesario disponer del compilador SDCC.
+Para la compilación, es necesario disponer del compilador SDCC.<br>
 <br>
 Instrucciones para Conversión a DSK:<br>
 hex2bin PongTroll.ihx<br>
